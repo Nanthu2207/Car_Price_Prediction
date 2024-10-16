@@ -1,3 +1,4 @@
+![Screenshot 2024-10-16 235238](https://github.com/user-attachments/assets/32228f9c-d592-4ef9-bdd1-4f0c7f6602dc)
 # Car_Price_Prediction
    CarDekho including various features such as make, model, year, fuel type, transmission type, and other relevant attributes from different cities. Your task as a data scientist is to develop a machine learning model that can accurately predict the prices of used cars based on these features. The model should be integrated into a Streamlit-based web application to allow users to input car details and receive an estimated price instantly
 
@@ -113,8 +114,6 @@ Streamlit Application:
   import seaborn
   import Scikit-learn
   import MinMaxScaler
-
-
-
+![Screenshot 2024-10-16 235238](https://github.com/user-attachments/assets/e3504235-2be6-49cf-98a3-8b4f750246ca)
 
 
