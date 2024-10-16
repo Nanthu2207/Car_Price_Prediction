@@ -104,7 +104,8 @@ Streamlit Application:
      Python
      Pandas 
      Exploratory Data Analysis (EDA)
-     Streamlit
+     Streamlit![Screenshot 2024-10-16 235238](https://github.com/user-attachments/assets/822fef4b-c875-432f-b629-52e50d60c5cf)
+
 
 # PACKAGES AND LIBRARIES
   pandas as pd
