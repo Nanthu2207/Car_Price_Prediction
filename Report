@@ -1,0 +1,52 @@
+Project Title:  "Machine Learning Models for Used Car Price Prediction"
+Author: Siva Nanthini
+Date: 17-10-24
+Institution: Guvi
+
+Objective:
+   The objective of this project was to develop a machine learning model to predict used car prices based on multiple features, including mileage, engine size, and car age.
+The project utilized Random Forest and Ridge regression models.
+After hyperparameter tuning, the Random Forest model achieved a test score of 0.8894 and a train score of 0.9756. 
+The model will be deployed using Streamlit to provide real-time predictions.
+
+Data Collection:
+  * My data set have 44 columns and 6285 rows.The columns like Mileage,price,Year of Manufacture , Entertainment,wheel base etc.
+  * These features were used to predict the car price in INR.
+
+Exploratory Data Analysis (EDA)
+  Summary Statistics:
+    * Provide basic statistics (mean, median, mode) for key features.
+  Visualizations: 
+   * Include visualizations such as histograms, bar charts, box plots, correlation heatmaps, etc.
+  Insights: 
+   * During the EDA, it was observed that cars with diesel engines tend to be priced higher on average compared to those with petrol engines.
+   * Older cars have a decreasing trend in price, but mileage is a stronger factor in determining price.
+
+
+Modeling Approach
+
+Data Preprocessing: 
+  * This may include handling missing data, scaling features, encoding categorical variables, and splitting the dataset into training and testing sets.
+
+Models Used:
+  * I used Random Forest ,Decision Tree ,Linear Regression and Gradient Boost.Random forest Regressor performance a good accuracy of 88.5%.
+  * Then I choose Random Forest Regressor.
+  * This model performed hyperparameter tuning (GridSearchCV) give max depth = 12,train-test split =3.
+
+Model Evaluation Metrics:
+  * Describe the metrics used to evaluate the models, such as R-squared, Mean Absolute Error (MAE), etc.
+  * The Random Forest model was selected for this project due to its ability to handle complex datasets and non-linear relationships.
+  * After hyperparameter tuning with GridSearchCV, the best model achieved a train score of 0.9756 and a test score of 0.8894.
+  * The evaluation metric used was R-squared, with additional checks for MAE.
+  * i am not used optimization technique because my model is good and save the model
+
+Deployment :
+Streamlit Application:
+  * I The trained Random Forest model was deployed using Streamlit. 
+  * The user can input key car features like mileage, fuel type, and engine displacement, and the app will return a predicted price for the used car.
+
+References
+ 1. Scikit-learn documentation: https://scikit-learn.org/
+ 2. Streamlit documentation: https://docs.streamlit.io/
+ 3. Blog on Random Forest: https://machinelearningmastery.com/
+
