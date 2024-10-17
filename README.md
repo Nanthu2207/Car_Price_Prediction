@@ -122,7 +122,9 @@ Streamlit Application:
 *  import RandomForestRegressor
 *  import GridSearchCV
 *  import streamlit
-  
+
+
+  # Output
 ![Screenshot 2024-10-16 235238](https://github.com/user-attachments/assets/e3504235-2be6-49cf-98a3-8b4f750246ca)
 
 
