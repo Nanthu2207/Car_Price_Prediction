@@ -102,26 +102,26 @@ Streamlit Application:
 
 # Technology Used
    1.  Machine Learning 
-   2. Python
+   2.  Python
    3.  Pandas 
    4.  Exploratory Data Analysis (EDA)
-   5. Streamlit
+   5.  Streamlit
 
 
 # PACKAGES AND LIBRARIES
-  import pandas as pd
-  import matplotlib
-  import seaborn
-  import LinearRegression
-  import MinMaxScaler
-  import joblib
-  from sklearn import preprocessing
-  import numpy as np
-  from sklearn import metrics
-  import GradientBoostingRegressor
-  import RandomForestRegressor
-  import GridSearchCV
-  import streamlit
+*  import pandas as pd
+*  import matplotlib
+*  import seaborn
+*  import LinearRegression
+*  import MinMaxScaler
+*  import joblib
+*  from sklearn import preprocessing
+*  import numpy as np
+*  from sklearn import metrics
+*  import GradientBoostingRegressor
+*  import RandomForestRegressor
+*  import GridSearchCV
+*  import streamlit
   
 ![Screenshot 2024-10-16 235238](https://github.com/user-attachments/assets/e3504235-2be6-49cf-98a3-8b4f750246ca)
 
